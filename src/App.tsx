@@ -581,13 +581,29 @@ function App() {
               </ul>
             </div>
             <div className="card">
-              <h3>📸 Instagram & Video</h3>
+              <h3>📸 Instagram Posts</h3>
               <ul className="link-list">
+                <li><a href="https://www.instagram.com/reel/DRN2E-EEsM9/" target="_blank" rel="noopener">@robkellysurf — Epic Surf Trip with Guaranteed Waves</a> — 5.5K+ likes, PerfectSwell wave pool session</li>
+                <li><a href="https://www.instagram.com/reel/DPaGnJnCcvM/" target="_blank" rel="noopener">@perfectswell — Riyue Bay Surf Resort is Firing</a> — 4.4K+ likes, wave pool highlights</li>
+                <li><a href="https://www.instagram.com/p/DSkOmv-Dr13/" target="_blank" rel="noopener">@perfectswell — Ending the Year on a High Note</a> — Riyue Bay year-end recap</li>
+                <li><a href="https://www.instagram.com/reel/DSJgVo2EqHK/" target="_blank" rel="noopener">@wsl.qs — Wu Yaomei at Riyue Bay</a> — WSL Qualifying Series competition footage</li>
+                <li><a href="https://www.instagram.com/p/DSYc8ROEk_M/" target="_blank" rel="noopener">@wsl.qs — That's a Wrap at Riyue Bay 2025</a> — WSL competition highlights, 280+ likes</li>
+                <li><a href="https://www.instagram.com/reel/DP7qWHRjshY/" target="_blank" rel="noopener">@perfectswell — Riyue Bay Longboarding Scene</a> — Chill longboard vibes</li>
+                <li><a href="https://www.instagram.com/reel/DQsQF7dDfgn/" target="_blank" rel="noopener">@americanwavemachines — China's Surfing Epicenter</a> — Wave pool landmark in Riyue Bay</li>
+                <li><a href="https://www.instagram.com/p/DPD0ZNqDaDv/" target="_blank" rel="noopener">@hainantouch — Have You Heard of Riyue Bay?</a> — Local intro to the surf scene</li>
                 <li><a href="https://www.instagram.com/reel/C2sY84APupW/" target="_blank" rel="noopener">@si — China Surf Guide Reel</a> — Surf trip tips, Oct-Feb best season</li>
-                <li><a href="https://www.instagram.com/explore/tags/riyuebay/" target="_blank" rel="noopener">#riyuebay on Instagram</a> — Browse tagged photos & reels</li>
-                <li><a href="https://www.instagram.com/explore/tags/hainansurf/" target="_blank" rel="noopener">#hainansurf on Instagram</a> — Hainan surf community posts</li>
-                <li><a href="https://www.instagram.com/explore/tags/日月湾/" target="_blank" rel="noopener">#日月湾 on Instagram</a> — Chinese-language posts (more local content)</li>
-                <li><a href="https://www.youtube.com/results?search_query=riyue+bay+surfing+hainan" target="_blank" rel="noopener">YouTube — Riyue Bay Surfing</a> — Surf videos & vlogs</li>
+                <li><a href="https://www.instagram.com/explore/locations/334807957268745/riyue-bay-surf-club/" target="_blank" rel="noopener">📍 Riyue Bay Surf Club — Location Page</a> — All posts tagged at the surf club</li>
+                <li><a href="https://www.instagram.com/explore/locations/653347704/riyue-bay-hainan-island-china/" target="_blank" rel="noopener">📍 Riyue Bay, Hainan — Location Page</a> — All posts tagged at Riyue Bay</li>
+                <li><a href="https://www.instagram.com/explore/tags/riyuebay/" target="_blank" rel="noopener">#riyuebay</a> · <a href="https://www.instagram.com/explore/tags/hainansurf/" target="_blank" rel="noopener">#hainansurf</a> · <a href="https://www.instagram.com/explore/tags/日月湾/" target="_blank" rel="noopener">#日月湾</a> — Hashtag feeds</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3>🎬 YouTube Videos</h3>
+              <ul className="link-list">
+                <li><a href="https://www.youtube.com/watch?v=RJti3GI6Psk" target="_blank" rel="noopener">China's First Surf Pool | PerfectSwell® Riyue Bay</a> — 21.9K+ views, full resort tour (6 min)</li>
+                <li><a href="https://www.youtube.com/watch?v=35QaEvi91D0" target="_blank" rel="noopener">CGTN — Live from Riyue Bay! World Surf League</a> — WSL competition coverage</li>
+                <li><a href="https://www.youtube.com/results?search_query=riyue+bay+surfing+hainan" target="_blank" rel="noopener">Search: Riyue Bay Surfing</a> — More surf videos & vlogs</li>
+                <li><a href="https://www.youtube.com/results?search_query=日月湾+冲浪" target="_blank" rel="noopener">Search: 日月湾 冲浪</a> — Chinese-language surf content (way more results)</li>
               </ul>
             </div>
           </div>
