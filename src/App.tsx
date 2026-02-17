@@ -562,6 +562,34 @@ function App() {
                 <li><a href="https://www.xe.com/currencyconverter/convert/?From=CNY&To=USD" target="_blank" rel="noopener">XE Currency Converter (CNY → USD)</a></li>
               </ul>
             </div>
+            <div className="card">
+              <h3>📝 Blogs & Travel Guides</h3>
+              <ul className="link-list">
+                <li><a href="https://www.surfeconomics.com/surf-travel/surf-guide-hainan-china/" target="_blank" rel="noopener">Surf Economics — Surf Guide: Hainan, China</a> — Detailed wind, swell & spot breakdown</li>
+                <li><a href="http://www.driftwoodrhythms.com/destinations/asia/china/riyue-bay-chinas-surfing-capital/" target="_blank" rel="noopener">Driftwood Rhythms — Riyue Bay: China's Surfing Capital</a> — Personal travel blog with vibes & tips</li>
+                <li><a href="https://www.stormrider.surf/region/hainan" target="_blank" rel="noopener">Stormrider — Surfing in Hainan</a> — Local surf tips & guide</li>
+                <li><a href="https://mybeautycravings.com/hainan-itinerary-10-days/" target="_blank" rel="noopener">MyBeautyCravings — 10-Day Hainan Itinerary</a> — Wanning, Riyue Bay & Shenzhou Peninsula</li>
+                <li><a href="https://traveldayztravel.com/wanning-day-trip-itinerary/" target="_blank" rel="noopener">TravelDayz — Wanning Day Trip: Shimei Bay & Shenzhou</a> — Budget hotel recs & day plans</li>
+                <li><a href="https://www.topchinatravel.com/china-attractions/riyue-bay-in-wanning.htm" target="_blank" rel="noopener">Top China Travel — Riyue Bay in Wanning</a> — Overview, scenery & activities</li>
+                <li><a href="https://www.worldtravelguide.net/features/feature/learning-to-surf-at-the-gate-of-hell/" target="_blank" rel="noopener">World Travel Guide — Learning to Surf at the Gate of Hell</a> — Surfing story from Riyue Bay</li>
+                <li><a href="https://www.battleface.com/blog/china-surfing-destination/" target="_blank" rel="noopener">Battleface — China: Surf's Up!</a> — Hainan as Asia's top surfing destination</li>
+                <li><a href="https://wavepoolmag.com/cruz-dinofa-at-riyue-bay-wave-pool-in-china/" target="_blank" rel="noopener">Wave Pool Mag — Riyue Bay Wave Pool</a> — The new wave pool + restaurant/bar scene</li>
+                <li><a href="https://www.longboardermagazine.com/2023/08/planting-the-seed/" target="_blank" rel="noopener">Longboarder Magazine — Planting the Seed</a> — Hainan's surf culture evolution</li>
+                <li><a href="https://www.corona.com/en/beaches/riyue-bay" target="_blank" rel="noopener">Corona — Riyue Bay Beach</a> — Beach profile & stories</li>
+                <li><a href="https://www.tripadvisor.com/Attraction_Review-g616021-d1859639-Reviews-Riyue_Bay-Wanning_Hainan.html" target="_blank" rel="noopener">TripAdvisor — Riyue Bay Reviews (2026)</a> — Traveler reviews & photos</li>
+                <li><a href="https://www.chinadaily.com.cn/a/202509/25/WS68d4abc8a3108622abca2db2_4.html" target="_blank" rel="noopener">China Daily — Hainan Travel Guide</a> — Official guide featuring Riyue Bay</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3>📸 Instagram & Video</h3>
+              <ul className="link-list">
+                <li><a href="https://www.instagram.com/reel/C2sY84APupW/" target="_blank" rel="noopener">@si — China Surf Guide Reel</a> — Surf trip tips, Oct-Feb best season</li>
+                <li><a href="https://www.instagram.com/explore/tags/riyuebay/" target="_blank" rel="noopener">#riyuebay on Instagram</a> — Browse tagged photos & reels</li>
+                <li><a href="https://www.instagram.com/explore/tags/hainansurf/" target="_blank" rel="noopener">#hainansurf on Instagram</a> — Hainan surf community posts</li>
+                <li><a href="https://www.instagram.com/explore/tags/日月湾/" target="_blank" rel="noopener">#日月湾 on Instagram</a> — Chinese-language posts (more local content)</li>
+                <li><a href="https://www.youtube.com/results?search_query=riyue+bay+surfing+hainan" target="_blank" rel="noopener">YouTube — Riyue Bay Surfing</a> — Surf videos & vlogs</li>
+              </ul>
+            </div>
           </div>
         </section>
       </main>
