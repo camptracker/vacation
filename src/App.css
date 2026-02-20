@@ -146,6 +146,49 @@ body {
   background: #d4603e;
 }
 
+/* Tahoe hero variant */
+.hero-tahoe {
+  background: linear-gradient(135deg, #1a2a3a 0%, #2d4a5e 40%, #4a7c8f 100%);
+}
+.hero-tahoe::before {
+  background: radial-gradient(ellipse at 30% 50%, rgba(100,160,200,0.3) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 80%, rgba(200,220,240,0.15) 0%, transparent 50%);
+}
+
+/* Destination tabs in nav */
+.dest-tabs {
+  display: flex;
+  gap: 0.3rem;
+  margin-right: 0.5rem;
+}
+.dest-tab {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.7);
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.dest-tab:hover {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+.dest-tab.active {
+  background: var(--coral);
+  border-color: var(--coral);
+  color: white;
+}
+.nav-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255,255,255,0.2);
+  margin: 0 0.3rem;
+  align-self: center;
+}
+
 /* Sections */
 .section {
   padding: 5rem 1.5rem;
