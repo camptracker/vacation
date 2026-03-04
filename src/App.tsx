@@ -3,8 +3,9 @@ import './App.css'
 
 const RiyueBayContent = lazy(() => import('./RiyueBayData'))
 const TahoeContent = lazy(() => import('./TahoeData'))
+const OahuContent = lazy(() => import('./OahuData'))
 
-type Destination = 'riyue' | 'tahoe'
+type Destination = 'riyue' | 'tahoe' | 'oahu'
 
 const destinations: { id: Destination; label: string; emoji: string; subtitle: string; heroTitle: string; heroSub: string; heroTagline: string }[] = [
   {
@@ -24,6 +25,15 @@ const destinations: { id: Destination; label: string; emoji: string; subtitle: s
     heroTitle: 'Soda Springs',
     heroSub: 'Donner Summit — Lake Tahoe, California',
     heroTagline: 'Mountain escape with world-class skiing & cozy mountain vibes',
+  },
+  {
+    id: 'oahu',
+    label: 'Oahu, Hawaii',
+    emoji: '🌺',
+    subtitle: 'Honolulu & Waikiki — Oahu, Hawaii',
+    heroTitle: 'Oahu, Hawaii',
+    heroSub: 'Honolulu & Waikiki — The Gathering Place',
+    heroTagline: 'Beaches, hiking, culture & aloha spirit',
   },
 ]
 
@@ -52,12 +62,23 @@ const sectionsByDest: Record<Destination, { id: string; label: string }[]> = {
     { id: 'getting-there', label: 'Getting There' },
     { id: 'links', label: 'Links' },
   ],
+  oahu: [
+    { id: 'overview', label: 'Overview' },
+    { id: 'events', label: 'Events' },
+    { id: 'things-to-do', label: 'Things to Do' },
+    { id: 'food', label: 'Food & Dining' },
+    { id: 'beaches', label: 'Beaches' },
+    { id: 'weather', label: 'Weather' },
+    { id: 'getting-there', label: 'Getting There' },
+    { id: 'links', label: 'Links' },
+  ],
 }
 
 function App() {
   const [dest, setDest] = useState<Destination>(() => {
     const hash = window.location.hash.slice(1)
     if (hash === 'tahoe') return 'tahoe'
+    if (hash === 'oahu') return 'oahu'
     return 'riyue'
   })
   const [activeSection, setActiveSection] = useState('')
@@ -112,7 +133,7 @@ function App() {
                   className={`dest-tab ${dest === d.id ? 'active' : ''}`}
                   onClick={() => switchDest(d.id)}
                 >
-                  {d.emoji} {d.id === 'riyue' ? 'Riyue Bay' : 'Soda Springs'}
+                  {d.emoji} {d.id === 'riyue' ? 'Riyue Bay' : d.id === 'tahoe' ? 'Soda Springs' : 'Oahu'}
                 </button>
               ))}
             </li>
@@ -142,7 +163,7 @@ function App() {
       {/* Sections */}
       <main>
         <Suspense fallback={<div style={{padding: '4rem', textAlign: 'center'}}>Loading...</div>}>
-          {dest === 'riyue' ? <RiyueBayContent /> : <TahoeContent />}
+          {dest === 'riyue' ? <RiyueBayContent /> : dest === 'tahoe' ? <TahoeContent /> : <OahuContent />}
         </Suspense>
       </main>
 
